@@ -1,0 +1,3 @@
+main: io.github.staudlol.pickaxes.PickaxeSpigotPlugin
+name: pickaxes
+version: 1.0-SNAPSHOT
