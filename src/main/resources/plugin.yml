@@ -5,3 +5,5 @@ main: io.github.staudlol.pickaxes.PickaxeSpigotPlugin
 commands:
   pickaxe:
     description: Receive a pickaxe
+  upgrade:
+    description: Upgrade a pickaxe

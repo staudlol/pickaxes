@@ -17,4 +17,6 @@ public class PickaxeConstants {
 
     public String PICKAXE_PERMISSION = "pickaxe.spigot.command";
     public String PICKAXE_RECEIVED = ChatColor.GREEN + "You have received a pickaxe.";
+
+    public String OPENED_UPGRADE_MENU = ChatColor.YELLOW + "You have opened the Upgrade Menu.";
 }

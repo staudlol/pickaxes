@@ -7,6 +7,7 @@ package io.github.staudlol.pickaxes;
  */
 
 import io.github.staudlol.pickaxes.command.PickaxeCommand;
+import io.github.staudlol.pickaxes.command.PickaxeUpgradeCommand;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -20,6 +21,7 @@ public class PickaxeSpigotPlugin extends JavaPlugin {
         instance = this;
 
         this.getCommand("pickaxe").setExecutor(new PickaxeCommand());
+        this.getCommand("upgrade").setExecutor(new PickaxeUpgradeCommand());
     }
 
     public static PickaxeSpigotPlugin getInstance() {
