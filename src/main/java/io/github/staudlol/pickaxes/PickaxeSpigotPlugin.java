@@ -8,23 +8,18 @@ package io.github.staudlol.pickaxes;
 
 import io.github.staudlol.pickaxes.command.PickaxeCommand;
 import io.github.staudlol.pickaxes.command.PickaxeUpgradeCommand;
+import io.github.staudlol.pickaxes.inventory.PickaxeUpgradeInventory;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 
 @Getter
 public class PickaxeSpigotPlugin extends JavaPlugin {
 
-    private static PickaxeSpigotPlugin instance;
-
     @Override
     public void onEnable() {
-        instance = this;
-
         this.getCommand("pickaxe").setExecutor(new PickaxeCommand());
         this.getCommand("upgrade").setExecutor(new PickaxeUpgradeCommand());
-    }
 
-    public static PickaxeSpigotPlugin getInstance() {
-        return instance;
+        this.getServer().getPluginManager().registerEvents(new PickaxeUpgradeInventory(), this);
     }
 }

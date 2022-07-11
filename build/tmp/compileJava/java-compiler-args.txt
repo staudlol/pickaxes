@@ -26,3 +26,5 @@ C:\\Users\\Kyle\\IdeaProjects\\pickaxes\\src\\main\\java\\io\\github\\staudlol\\
 C:\\Users\\Kyle\\IdeaProjects\\pickaxes\\src\\main\\java\\io\\github\\staudlol\\pickaxes\\inventory\\PickaxeUpgradeInventory.java
 C:\\Users\\Kyle\\IdeaProjects\\pickaxes\\src\\main\\java\\io\\github\\staudlol\\pickaxes\\PickaxeConstants.java
 C:\\Users\\Kyle\\IdeaProjects\\pickaxes\\src\\main\\java\\io\\github\\staudlol\\pickaxes\\PickaxeSpigotPlugin.java
+C:\\Users\\Kyle\\IdeaProjects\\pickaxes\\src\\main\\java\\io\\github\\staudlol\\pickaxes\\utility\\Experience.java
+C:\\Users\\Kyle\\IdeaProjects\\pickaxes\\src\\main\\java\\io\\github\\staudlol\\pickaxes\\utility\\ItemBuilder.java
